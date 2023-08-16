@@ -1,0 +1,27 @@
+//BR-PT -----
+using System;
+
+namespace MyApp 
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            int num1;
+            Console.WriteLine("======== ///// - X - ///// ========");
+            Console.WriteLine(" ");
+            Console.WriteLine(" - Coloque um numero: ");
+            num1 = int.Parse(Console.ReadLine());
+
+            if (num1 > 200 && num1 < 300)
+            { Console.WriteLine("O numero ESTÁ entre 200 e 300: " + num1); }
+
+            else { Console.WriteLine(" - O numero NÃO está entre 200 e 300: " + num1); }
+            
+            Console.WriteLine(" ");
+            Console.WriteLine("======== ///// - X - ///// ========");
+
+        }
+    }
+}
